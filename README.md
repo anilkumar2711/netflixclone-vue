@@ -44,3 +44,31 @@ Vuex requires Promise (opens new window). If your supporting browsers do not imp
 <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.js"></script>
 
 add above line in public/index.html
+
+
+
+Git Operations
+
+setting git credentials
+git config user.name "Anil Kumar"
+git config user.email "anilkumarkrishna027@gmail.com"
+
+Pushing Changes from local to Git
+
+git add .
+git commit -m "[Changes Note]"
+git push origin [branchname]
+
+ex. git push origin main
+
+
+To serve the project
+
+npm run serve
+
+To build the project 
+
+npm run build
+
+
+

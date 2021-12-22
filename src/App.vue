@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <ChildComponent1 :options="['Option 1','Option 2','fuck']"/>
+    <ChildComponent1 :options="['Option 1','somebad','Option 3']"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ChildComponent1 from './components/ChildComponent1.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ChildComponent1
   }
 }
 </script>

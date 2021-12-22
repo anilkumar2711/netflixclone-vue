@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue' //Vue Component
-import Vuex from 'vuex'
-Vue.use(Vuex)
+
 //Named Import
-import { state } from "./store";
+import { store } from "./store";
+
 
 Vue.config.productionTip = false
 
